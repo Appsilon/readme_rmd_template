@@ -7,7 +7,7 @@ The most convienient way to work with this repository is to add it as a submodul
 ```
 git submodule add git@github.com:Appsilon/readme_rmd_template.git
 ```
-This results in creating readme_rmd_template directory within repository containing templates and readme_rmd_template.sh script. You can update this submodule later on to receive all up to date templates.
+This results in creating readme_rmd_template directory within repository containing templates and readme_rmd_template.sh script. You can update this submodule later on to receive all up to date templates - just run `git pull origin master` within submodule directory.
 
 Using:
 ```
