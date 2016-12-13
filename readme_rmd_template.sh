@@ -11,7 +11,7 @@ init () {
 
 update () {
   echo "Updating templates. This overwrites all files!"
-  cp -v $DIR/templates/docs/styles.css ./docs/styles.css
+  cp -v $DIR/templates/docs/style.css ./docs/style.css
   echo "All done."
   exit 0
 }
