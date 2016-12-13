@@ -3,6 +3,12 @@ Readme.rmd template
 
 This is a template repository for Appsilon Data Science R packages. Within the `templates` directory all raw files are stored.
 
+The most convienient way to work with this repository is to add it as a submodule within your package via:
+```
+git submodule add git@github.com:Appsilon/readme_rmd_template.git
+```
+This results in creating readme_rmd_template directory within repository containing templates and readme_rmd_template.sh script. You can update this submodule later on to receive all up to date templates.
+
 Using:
 ```
 ./(path_to_this_repo)/readme_rmd_template.sh init
