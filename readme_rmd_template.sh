@@ -11,15 +11,15 @@ init () {
 
 update () {
   echo "Updating templates. This overwrites all files!"
-  echo "Initializing with templates..."
-  cp -Rv $DIR/templates/* .
+  cp -v $DIR/templates/docs/styles.css ./docs/styles.css
   echo "All done."
   exit 0
 }
 
 usage () {
-  echo "USAGE: $0 (init|update) - copy template files to current location."
-  echo "       $0 help - prints this information."
+  echo "USAGE: $0 init          - copy template files to current location."
+  echo "       $0 update-styles - update github-pages stylesheet."
+  echo "       $0 help          - prints this information."
   exit 1
 }
 
@@ -37,7 +37,7 @@ if [ $COMMAND = "init" ]; then
   init
 fi
 
-if [ $COMMAND = "update" ]; then
+if [ $COMMAND = "update-styles" ]; then
   update
 fi
 
