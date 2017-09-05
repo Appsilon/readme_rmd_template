@@ -3,7 +3,7 @@ output: html_document
 params:
    website_url: http://appsilondatascience.com
    logo_url: https://cdn.rawgit.com/Appsilon/website-cdn/gh-pages/logo-white.png
-   repo_name: shiny.Semantic
+   repo_name: shiny.semantic
    repo_url: http://appsilondatascience.com/repo
    demo_url: http://appsilondatascience.com/demo
    chagelog_url: http://appsilondatascience.com/repo_changelog
