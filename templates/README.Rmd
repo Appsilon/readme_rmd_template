@@ -1,26 +1,26 @@
 ---
-title: Repo documentation
+title: {CHANGE: Repo title}
 output: html_document
 params:
    website_url: http://appsilondatascience.com
    logo_url: https://cdn.rawgit.com/Appsilon/website-cdn/gh-pages/logo-white.png
-   
-   repo_name: shiny.semantic
-   repo_url: http://appsilondatascience.com/repo
-   demo_url: http://appsilondatascience.com/demo
-   chagelog_url: http://appsilondatascience.com/repo_changelog
+
+   repo_name: {CHANGE: repo.name}
+   repo_url: {CHANGE: http://appsilondatascience.com/repo}
+   demo_url: {CHANGE: http://appsilondatascience.com/demo}
+   chagelog_url: {CHANGE: http://appsilondatascience.com/repo_changelog}
 ---
 
-<link href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic|Inconsolata" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700|Inconsolata" rel="stylesheet" type="text/css">
 <link href='docs/style.css' rel='stylesheet' type='text/css'>
 
 `r params$repo_name`
 ===========
 
-<div class="subheader">SemanticUI wrapper for Shiny</div>
+<div class="subheader">{CHANGE: SemanticUI wrapper for Shiny}</div>
 
 <div class="section level2">
-TODO - Your repo short description here
+{CHANGE:  Your repo short description here}
 
 <!-- #Basic tutorial article is available on [Appsilon Data Science blog](your_future_art_link). -->
 
@@ -90,7 +90,7 @@ However, if you encounter any problems, try the following:
 Future enhacements
 ------------------
 * CRAN release
-* TODO other features
+* {CHANGE:  other features}
 
 
 Appsilon Data Science {.footer}
@@ -105,4 +105,3 @@ Get in touch [dev@appsilondatascience.com](dev@appsilondatascience.com)
 <script>
 document.write('<a href="`r params$repo_url`"><img style="position: absolute; margin: 0; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>')
 </script>
-
