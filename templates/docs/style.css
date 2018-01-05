@@ -9,8 +9,11 @@ h1 {
   padding-top: 1em;
   margin: 0;
 }
-.footer h1 {
-  font-size: 50px;
+.section.level2.footer * {
+  text-align: center;
+}
+.footer h2 {
+  display: none;
 }
 .footer a {
   color: white;
@@ -28,7 +31,6 @@ h2, .subheader {
   font-weight: 400;
   margin: 0;
 }
-
 .main-container {
   max-width: 100%;
   padding: 0;
@@ -40,24 +42,15 @@ h2, .subheader {
   text-align: center;
   padding: 1em 0;
 }
-.section.level2 * {
+.section.level2 > div, .section.level2 > p, .section.level2 > pre,
+.section.level2 > ol, .section.level2 > ul, .section.level2 > h2 {
   text-align: left;
   margin: 1em auto;
   width: 50%;
   max-width: 940px;
 }
-@media (max-width: 1440px) {
-  .section.level2 * {
-    width:75%;
-  }
-}
-
-
 .section.level1.footer * {
   text-align: center;
-}
-.section.level2 * * {
-  width: 100%;
 }
 .darkslide {
   background-color: #15354a;
