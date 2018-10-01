@@ -1,11 +1,11 @@
 output: html_document
 params:
-   website_url: http://appsilondatascience.com
+   website_url: http://appsilon.com
    logo_url: https://cdn.rawgit.com/Appsilon/website-cdn/gh-pages/logo-white.png
    repo_name: {CHANGE: repo.name}
-   repo_url: {CHANGE: http://appsilondatascience.com/repo}
-   demo_url: {CHANGE: http://appsilondatascience.com/demo}
-   chagelog_url: {CHANGE: http://appsilondatascience.com/repo_changelog}
+   repo_url: {CHANGE: http://appsilon.com/repo}
+   demo_url: {CHANGE: http://appsilon.com/demo}
+   chagelog_url: {CHANGE: http://appsilon.com/repo_changelog}
 ---
 
 <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700|Inconsolata" rel="stylesheet" type="text/css">
@@ -105,7 +105,7 @@ if (params$type == "web") {
 }
 ```
 
-Get in touch [dev@appsilondatascience.com](dev@appsilondatascience.com)
+Get in touch [dev@appsilon.com](dev@appsilon.com)
 
 ```{r, echo = F, results='asis'}
 if (params$type == "web") {
